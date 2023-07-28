@@ -36,6 +36,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   box-sizing: border-box;
+  align-content: space-evenly;
 }
 .right-content {
   background-color: rgba(91, 226, 226, 0.5);
