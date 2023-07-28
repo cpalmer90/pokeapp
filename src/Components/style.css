@@ -18,7 +18,7 @@ body {
 }
 .left-content,
 .right-content {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 .left-content {
   display: grid;
@@ -35,11 +35,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  align-content: space-between;
   box-sizing: border-box;
-  align-content: space-evenly;
 }
 .right-content {
   background-color: rgba(91, 226, 226, 0.5);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
   border: 5px solid black;
   border-radius: 12px;
   width: 40%;
@@ -99,6 +100,8 @@ body {
 }
 .btn-group {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .btn-group button {
   outline: none;
